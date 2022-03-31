@@ -8,6 +8,7 @@ function App() {
       <Content/>
       <div className='parallax'></div>
       <Content/>
+      <div className='parallax-2'></div>
     </div>
   );
 }

@@ -13,9 +13,8 @@
     display: grid;
     background-color: var(--bg-main);
     grid-template-columns: 5fr 3fr 1fr;
-    grid-template-rows: auto;
-    align-items: center;
-    padding: 0.1em;
+    grid-template-rows: 1fr;
+    align-content: center;
 }
 
 .left{
@@ -23,10 +22,29 @@
     justify-content: flex-start;
     grid-column: 1 / 2 ;
     padding-left: 5em;
+    height: 100%;
 }
-.start{
+.nav-element{
+    user-select: none;
+    cursor: pointer;
+    padding-top: 0.2em;
     padding-left: 1em;
     padding-right: 1em;
+    transition-property: background-color;
+    transition-timing-function: ease-out;
+    transition-duration: 150ms;
+}
+.nav-element:hover{
+    background-color: var(--bg-complementary);
+    transition-property: background-color;
+    transition-timing-function: ease-out;
+    transition-duration: 150ms;
+}
+.nav-element:active{
+    background-color: #E51A6F;
+    transition-property: background-color;
+    transition-timing-function: ease-in;
+    transition-duration: 150ms;
 }
 .log{
     grid-column: 3 / 4;
