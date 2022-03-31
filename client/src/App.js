@@ -6,6 +6,8 @@ function App() {
     <div className="App">
       <Nav/>
       <Content/>
+      <div className='parallax'></div>
+      <Content/>
     </div>
   );
 }
