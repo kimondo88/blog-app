@@ -1,0 +1,20 @@
+{
+  "name": "blog-app",
+  "version": "1.0.0",
+  "description": "react blog app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-blogapp:kimondo88/blog-app.git"
+  },
+  "keywords": [
+    "react",
+    "blog",
+    "app"
+  ],
+  "author": "adam \"kim\" tarczewski",
+  "license": "MIT"
+}
