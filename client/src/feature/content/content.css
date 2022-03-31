@@ -1,0 +1,16 @@
+:root{
+    --bg-color: #E5901A;
+    --bg-main: white;
+    color: black;
+}
+.content{
+    margin-top: 2%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: var(--bg-color);
+}
+.container{
+    margin: 0 auto;
+    width: 50%;
+    max-width: 60ch;
+}
