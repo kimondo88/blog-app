@@ -4,10 +4,10 @@ export default function Navbar(){
     return(
         <nav className="nav">
             <div className="left">
-                <div className='nav-element'>Click Me</div>
-                <div className='nav-element'>Click Me</div>
+                <div className='nav-element flex-center'>Click Me</div>
+                <div className='nav-element flex-center'>Click Me</div>
             </div>
-            <div className="nav-element log">Profile</div>
+            <div className="nav-element flex-center log">Profile</div>
         </nav>
     )
 }

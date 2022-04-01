@@ -6,9 +6,9 @@ function App() {
     <div className="App">
       <Nav/>
       <Content/>
-      <div className='parallax'></div>
+      <div className='parallax parralax-first'></div>
       <Content/>
-      <div className='parallax-2'></div>
+      <div className='parallax parallax-second'></div>
     </div>
   );
 }
